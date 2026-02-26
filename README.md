@@ -1,18 +1,17 @@
 # UNBench Task2 Reproducibility Project | FTEC5660 Agentic AI for Finance Coursework
-This repository contains the reproducibility coursework for the **FTEC5660 Agentic AI for Business and FinTech** course, based on the Task2 (UN Security Council Voting Simulation) from the official [UNBench](https://github.com/yueqingliang1/UNBench) repository. This project fully complies with all course requirements, including baseline reproduction, isolated single-variable modification, and quantitative result validation.
+This repository contains the reproducibility coursework for the **FTEC5660 Agentic AI for Business and FinTech** course, based on the Task2 (UN Security Council Voting Simulation) from the official [UNBench](https://github.com/yueqingliang1/UNBench) repository. This project fully complies with all requirements, including baseline reproduction, isolated single-variable modification, and quantitative result validation.
 
 ---
 
 ## 1. Project Compliance with Course Requirements
 ### 1.1 Eligibility Compliance
-This project meets all minimum eligibility criteria and the formal definition of an agentic system set by the course:
-- ased on a public GitHub repository with a fully runnable end-to-end pipeline
+This project meets all minimum eligibility criteria and the formal definition of an agentic system:
+- asked on a public GitHub repository with a fully runnable end-to-end pipeline
 - Qualifies as an **agentic system**: Implements a multi-step execution workflow (`data loading → prompt construction → LLM inference → result post-processing → automated metric evaluation`), not just single-round prompt-response
 - Has clear, well-defined reproduction targets with standardized quantitative metrics (Accuracy, F1 Score, AUC, etc.)
 - Runnable on standard consumer hardware, no high-compute requirements
 
 ### 1.2 Modification Compliance
-The modification strictly follows the course's requirements for a "small, well-scoped, isolated, and measurable change":
 - Modification type: **Prompt/tool policy change** (explicitly approved by the course instructions)
 - Strict single-variable control: Only the system prompt was modified; the model, dataset, evaluation logic, and inference parameters remain identical to the baseline
 - Measurable impact: Performance changes are fully quantified using the course-specified evaluation metrics
